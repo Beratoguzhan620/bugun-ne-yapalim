@@ -11,12 +11,12 @@ Her aşama ayrı bir branch ve PR olarak yapılır (`stage/<no>-<kisa-ad>`). Bir
 > Orijinal ödev metni yalnızca yerelde `docs/brief/` klasöründe durur (git'e girmez); bütün gereksinimler bu dosyaya işlenmiştir. Gereksinim: Expo managed, TypeScript, NativeWind (inline style yok), özel font, icon + splash, store bilgileri.
 
 ## Aşama 1 — Uygulama
-- [ ] Expo + TypeScript + NativeWind; özel font `expo-font` ile tüm uygulamada aktif (IBM Plex Sans, @expo-google-fonts); `docs/DESIGN.md` token'ları
-- [ ] Öneriler bir array'de; her basışta rastgele seçilip ekranda güncellenir
-- [ ] Tek ekran: büyük başlık, öneri kartı, büyük "Ne Yapalım?" butonu; arka arkaya aynı öneri gelmez
-- [ ] 40+ öneri, kategoriler (Hareket, Zihin, Sosyal, Ev); kategori filtresi; hafif animasyon + haptik
-- [ ] Tüm stiller `className` ile (inline style yok); responsive
-- [ ] Bonuslar: "günün önerisini sabitle", koyu tema
+- [x] Expo + TypeScript + NativeWind; özel font `expo-font` ile tüm uygulamada aktif (IBM Plex Sans, @expo-google-fonts); `docs/DESIGN.md` token'ları
+- [x] Öneriler bir array'de; her basışta rastgele seçilip ekranda güncellenir
+- [x] Tek ekran: büyük başlık, öneri kartı, büyük "Ne Yapalım?" butonu; arka arkaya aynı öneri gelmez
+- [x] 40+ öneri, kategoriler (Hareket, Zihin, Sosyal, Ev); kategori filtresi; hafif animasyon + haptik
+- [x] Tüm stiller `className` ile (inline style yok); responsive
+- [x] Bonuslar: "günün önerisini sabitle", koyu tema
 
 ## Aşama 2 — Store hazırlığı ve teslim
 - [ ] 1024x1024 sade ikon, özel splash, `app.json` ayarları
