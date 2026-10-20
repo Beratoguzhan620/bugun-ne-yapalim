@@ -8,21 +8,33 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.beratoguzhan.bugunneyapalim",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#F7F6F3",
+        "backgroundColor": "#1F2A37",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.beratoguzhan.bugunneyapalim",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
       "output": "single",
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "Bugün Ne Yapalım?",
+      "shortName": "Ne Yapalım",
+      "themeColor": "#1F2A37",
+      "backgroundColor": "#F7F6F3",
+      "description": "Tek dokunuşla bugün için bir aktivite önerisi: hareket, zihin, sosyal ve ev."
     },
     "plugins": [
       "expo-router",
@@ -33,9 +45,17 @@
         {
           "image": "./assets/splash-icon.png",
           "imageWidth": 120,
-          "backgroundColor": "#F7F6F3"
+          "resizeMode": "contain",
+          "backgroundColor": "#F7F6F3",
+          "dark": {
+            "image": "./assets/splash-icon-dark.png",
+            "backgroundColor": "#141413"
+          }
         }
       ]
-    ]
+    ],
+    "description": "Tek dokunuşla bugün için bir aktivite önerisi: hareket, zihin, sosyal ve ev.",
+    "primaryColor": "#2B5C8A",
+    "backgroundColor": "#F7F6F3"
   }
 }
