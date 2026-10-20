@@ -19,6 +19,7 @@ Her aşama ayrı bir branch ve PR olarak yapılır (`stage/<no>-<kisa-ad>`). Bir
 - [x] Bonuslar: "günün önerisini sabitle", koyu tema
 
 ## Aşama 2 — Store hazırlığı ve teslim
-- [ ] 1024x1024 sade ikon, özel splash, `app.json` ayarları
-- [ ] `docs/store.md`: app adı, kısa açıklama, uzun açıklama (TR + EN)
-- [ ] Expo web canlı demo; ekran görüntüleri; README (TR + EN)
+- [x] 1024x1024 sade ikon, özel splash, `app.json` ayarları
+- [x] `docs/store.md`: app adı, kısa açıklama, uzun açıklama (TR + EN)
+- [x] Ekran görüntüleri; README (TR + EN)
+- [ ] Expo web canlı demo
