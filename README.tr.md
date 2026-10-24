@@ -13,6 +13,8 @@ Tek dokunuşla aktivite öneren küçük bir mobil uygulama: hareket, zihin, sos
 
 ## Dene
 
+**Canlı demo:** [beratoguzhan620.github.io/bugun-ne-yapalim](https://beratoguzhan620.github.io/bugun-ne-yapalim/) (web sürümü; `main`'den `.github/workflows/deploy.yml` ile yayınlanır)
+
 ```bash
 pnpm install
 pnpm web        # tarayıcıda
@@ -102,7 +104,6 @@ Uçtan uca akış gerçek bir tarayıcıda, telefon ve masaüstü boyutunda çal
 
 ## Yol haritası ve bilinen eksikler
 
-- Canlı web demosu.
 - EAS ile store'a gönderilecek build'ler.
 - Günün önerisini bildiren bir bildirim.
 
