@@ -13,6 +13,8 @@
 
 ## Try it
 
+**Live demo:** [beratoguzhan620.github.io/bugun-ne-yapalim](https://beratoguzhan620.github.io/bugun-ne-yapalim/) (the web version; published from `main` by `.github/workflows/deploy.yml`)
+
 ```bash
 pnpm install
 pnpm web        # in the browser
@@ -102,7 +104,6 @@ The end-to-end flow runs in a real browser on phone and desktop sizes:
 
 ## Roadmap and known gaps
 
-- Live web demo.
 - Store submission builds with EAS.
 - A notification with the day's idea.
 
